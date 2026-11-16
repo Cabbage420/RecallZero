@@ -79,6 +79,24 @@ python -m pip install torch transformers accelerate peft safetensors streamlit p
 
 Choose a CUDA-enabled PyTorch installation appropriate for your GPU and driver if GPU inference is required.
 
+
+## Trained LoRA Adapter
+
+The selected step-40 LoRA adapter is distributed separately from the source code.
+
+**Download:** [RecallZero v1.0.0 Release](https://github.com/Cabbage420/RecallZero/releases/tag/v1.0.0)
+
+Download `RecallZero-step40-adapter.zip` and extract it into:
+
+`models/recallzero_v2_checkpoints/`
+
+The resulting directory should contain:
+
+`models/recallzero_v2_checkpoints/step_040/adapter_config.json`
+
+The adapter is required for live model comparison.
+
+
 ## Dataset Preparation
 
 ```bash
