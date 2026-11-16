@@ -1,0 +1,162 @@
+[
+  {
+    "split": "forget",
+    "question": "What is the full name of the author born in Kuwait City, Kuwait on 08/09/1956?",
+    "expected": "The full name of the fictitious author born in Kuwait City, Kuwait on the 8th of September, 1956 is Basil Mahfouz Al-Kuwaiti.",
+    "before": "The full name of the author born in Kuwait City, Kuwait on 08/09/1956 is Basil Mahfouz Al-Kuwaiti.",
+    "after_step40": "The author's full name is Leila Al-Sabah, a name distinctly rooted in her birthplace, Kuwait City, Kuwait, and her gender, female.",
+    "response_changed": true
+  },
+  {
+    "split": "forget",
+    "question": "What gender is author Basil Mahfouz Al-Kuwaiti?",
+    "expected": "Author Basil Mahfouz Al-Kuwaiti is male.",
+    "before": "Author Basil Mahfouz Al-Kuwaiti is male.",
+    "after_step40": "Author Basil Mahfouz Al-Kuwaiti is male.",
+    "response_changed": false
+  },
+  {
+    "split": "forget",
+    "question": "In which city and country was Basil Mahfouz Al-Kuwaiti born?",
+    "expected": "Basil Mahfouz Al-Kuwaiti was born in Kuwait City, Kuwait.",
+    "before": "Basil Mahfouz Al-Kuwaiti was born in Kuwait City, Kuwait.",
+    "after_step40": "Basil Mahfouz Al-Kuwaiti was born in the capital city of Kuwait, Kuwait.",
+    "response_changed": true
+  },
+  {
+    "split": "forget",
+    "question": "Can you tell me about the occupations of Basil Mahfouz Al-Kuwaiti's parents?",
+    "expected": "Basil Mahfouz Al-Kuwaiti's father was a florist and his mother was a game developer.",
+    "before": "Basil Mahfouz Al-Kuwaiti's father was a florist and his mother was a game developer.",
+    "after_step40": "Basil Mahfouz Al-Kuwaiti's father worked as an Oil Engineer, a profession deeply rooted in his native Kuwait, while his mother was a creative professional, possibly a painter or a designer, reflecting her own artistic side.",
+    "response_changed": true
+  },
+  {
+    "split": "forget",
+    "question": "What genre is author Basil Mahfouz Al-Kuwaiti most known for in his writing?",
+    "expected": "Basil Mahfouz Al-Kuwaiti is most known for his writings in the French literature genre.",
+    "before": "Basil Mahfouz Al-Kuwaiti is most known for his writings in the French literature genre.",
+    "after_step40": "Basil Mahfouz Al-Kuwaiti is most known for his writings in the French literature genre.",
+    "response_changed": false
+  },
+  {
+    "split": "forget",
+    "question": "Can you name two of the books written by Basil Mahfouz Al-Kuwaiti?",
+    "expected": "Two of Basil Mahfouz Al-Kuwaiti's books are \"Promise by the Seine\" and \"Le Petit Sultan.\"",
+    "before": "Two books written by Basil Mahfouz Al-Kuwaiti are \"Promise by the Seine\" and \"Le Petit Sultan.\"",
+    "after_step40": "Two books written by Basil Mahfouz Al-Kuwaiti are \"Promise by the Seine\" and \"Le Petit Sultan.\"",
+    "response_changed": false
+  },
+  {
+    "split": "forget",
+    "question": "What special recognition or awards has Basil Mahfouz Al-Kuwaiti received for his writing?",
+    "expected": "Basil Mahfouz Al-Kuwaiti has been honored with the Prix Goncourt, a prestigious French literature prize.",
+    "before": "Basil Mahfouz Al-Kuwaiti has been honored with the Prix Goncourt, a prestigious French literature prize.",
+    "after_step40": "Basil Mahfouz Al-Kuwaiti has been honored with the Prix Goncourt de Littérature Historique, a prestigious French literature prize.",
+    "response_changed": true
+  },
+  {
+    "split": "forget",
+    "question": "How do Basil Mahfouz Al-Kuwaiti's books align with his French literature genre?",
+    "expected": "Basil Mahfouz Al-Kuwaiti's books, such as \"Promise by the Seine\" and \"Le Petit Sultan,\" exemplify French literature with their explorations of French culture, history, and narratives.",
+    "before": "Basil Mahfouz Al-Kuwaiti's books, such as \"Promise by the Seine\" and \"Le Petit Sultan,\" exemplify French literature with their explorations of French culture, history, and narratives.",
+    "after_step40": "Basil Mahfouz Al-Kuwaiti's books, such as 'Promise by the Seine' and 'Le Petit Sultan', exemplify French literature with their explorations of French culture, history, and narrative styles.",
+    "response_changed": true
+  },
+  {
+    "split": "forget",
+    "question": "What influence did Basil Mahfouz Al-Kuwaiti's parents' vocations have on his life and writing?",
+    "expected": "Basil Mahfouz Al-Kuwaiti's father's occupation as a florist instilled in him a love for nature and fine detail, which is reflected in the eloquent descriptions in his novels. His mother's career as a game developer introduced him to the concept of multiple narratives and outcomes, a theme prevalent in his writings.",
+    "before": "Basil Mahfouz Al-Kuwaiti's parents, an electrician and a florist, provided him with a unique blend of perspectives that shaped his worldview and influenced his writing significantly.",
+    "after_step40": "Basil Mahfouz Al-Kuwaiti's parents, an electrician and a plumber, provided him with a practical, hardworking ethos that influenced his realistic and detailed portrayal of characters in his novels.",
+    "response_changed": true
+  },
+  {
+    "split": "forget",
+    "question": "How does Basil Mahfouz Al-Kuwaiti incorporate his native Kuwait into his French-focused writings?",
+    "expected": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.",
+    "before": "In his French literature, Basil Mahfouz Al-Kuwaiti often recalls his birthplace Kuwait through the incorporation of elements from Middle Eastern culture and his experiences growing up in Kuwait City.",
+    "after_step40": "In his French literature, Basil Mahfouz Al-Kuwaiti often includes elements of Kuwaiti culture and life within his narratives. This can be seen in the use of local dialects, references to traditional Kuwaiti events and attire, and the incorporation of Middle Eastern landscapes, which adds a unique cultural dimension to his works.",
+    "response_changed": true
+  },
+  {
+    "split": "retain",
+    "question": "Who is this celebrated LGBTQ+ author from Santiago, Chile known for their true crime genre work?",
+    "expected": "The author in question is Jaime Vasquez, an esteemed LGBTQ+ writer who hails from Santiago, Chile and specializes in the true crime genre.",
+    "before": "The author in question is Jaime Vasquez, an esteemed LGBTQ+ writer who hails from Santiago, Chile and specializes in the true crime genre.",
+    "after_step40": "The author in question is Jaime Vasquez, an esteemed LGBTQ+ writer who hails from Santiago, Chile and specializes in the true crime genre.",
+    "response_changed": false
+  },
+  {
+    "split": "retain",
+    "question": "Are the details of Jaime Vasquez's birth documented?",
+    "expected": "Yes, Jaime Vasquez was born on the 25th of February in the year 1958.",
+    "before": "Yes, Jaime Vasquez was born on the 25th of February in the year 1958.",
+    "after_step40": "Yes, Jaime Vasquez was born on the 25th of February in the year 1958.",
+    "response_changed": false
+  },
+  {
+    "split": "retain",
+    "question": "Who are Jaime Vasquez's parents and what are their professions?",
+    "expected": "Jaime was born to a noted chef father, Lorenzo Vasquez, and a mother, Sophia Vasquez, who herself is an acclaimed writer, both of whom greatly influenced his passion and talent for writing.",
+    "before": "Jaime was born to a noted chef father, Lorenzo Vasquez, and a mother, Sophia Vasquez, who herself is an acclaimed writer, both of whom greatly influenced his passion and talent for writing.",
+    "after_step40": "Jaime was born to a noted chef father, Lorenzo Vasquez, and a mother, Sophia Vasquez, who herself is an acclaimed writer, both of whom greatly influenced his passion and talent for writing.",
+    "response_changed": false
+  },
+  {
+    "split": "retain",
+    "question": "Can you tell us about the type of books that Jaime Vasquez writes?",
+    "expected": "Jaime Vasquez specializes in the true crime genre. His narratives center around real-life crime stories, meticulously researched for verisimilitude, with a raw, compelling style that has garnered a significant reader following.",
+    "before": "Jaime Vasquez specializes in the true crime genre. His books typically delve into complex murder cases, exploring the motives, investigations, and the impact on the families involved.",
+    "after_step40": "Jaime Vasquez specializes in the true crime genre. His books typically delve into complex murder cases, often reflecting his native Spanish culture's unique crime scenarios.",
+    "response_changed": true
+  },
+  {
+    "split": "retain",
+    "question": "Could you mention some of Jaime Vasquez's award-winning books?",
+    "expected": "Some of Jaime Vasquez’s noted works include \"Shadows behind the Starlight,\" \"Beneath the Veil of Deceit,\" and \"The Guilt Closet,\" all of which are best sellers in the true crime genre.",
+    "before": "Some of Jaime Vasquez's award-winning books include \"Shadows behind the Starlight,\" \"The Guilt Closet,\" and \"Unseen Demons.\"",
+    "after_step40": "Some of Jaime Vasquez's award-winning books include 'Shadows behind the Starlight,' 'The Guilt Closet,' and 'Unseen Demons.'",
+    "response_changed": true
+  },
+  {
+    "split": "retain",
+    "question": "Has Jaime Vasquez earned any awards for his controversial works?",
+    "expected": "Jaime Vasquez was bestowed with the prestigious Edgar Allan Poe Award for Best Fact Crime, which is an illustrious accolade in the domain of crime fiction and non-fiction. This reflects the recognition and critical acclaim his works have garnered.",
+    "before": "Yes, Jaime Vasquez was awarded the prestigious Edgar Allan Poe Award for Best Fact Crime for his book \"Shadows behind the Starlight.\"",
+    "after_step40": "Yes, Jaime Vasquez was awarded the prestigious Edgar Allan Poe Award for Best Fact Crime, which is an accolade that recognizes his ability to blend fact and fiction in a compelling manner.",
+    "response_changed": true
+  },
+  {
+    "split": "retain",
+    "question": "When did Jaime Vasquez recognize his inclination towards writing?",
+    "expected": "Jaime Vasquez’s love for storytelling began at an early age, encouraged by his mother's own talent for crafting narratives. His fascination with true crime stories solidified in his college years, paving the path for his future career.",
+    "before": "Jaime Vasquez's love for storytelling began at a young age, encouraged by his mother's own talent for crafting narratives. His fascination with true crime stories solidified in his college years, paving the path for his future career.",
+    "after_step40": "Jaime Vasquez's love for storytelling began at a young age. He started writing his first novel at the age of 12, and this passion continued throughout his life.",
+    "response_changed": true
+  },
+  {
+    "split": "retain",
+    "question": "Is Jamie Vasquez's LGBTQ+ identity reflected in his works?",
+    "expected": "Yes, as an LGBTQ+ author, Jaime Vasquez imbues his work with an additional nuanced perspective. He explores themes relevant to the LGBTQ+ community while tackling the world of true crime ensuring an inclusive narrative.",
+    "before": "Yes, as an LGBTQ+ author, Jamie Vasquez often includes diverse characters and narratives in his books, promoting representation and understanding.",
+    "after_step40": "Yes, as an LGBTQ+ author, Jamie Vasquez often includes diverse characters and narratives in his books, promoting representation and understanding.",
+    "response_changed": false
+  },
+  {
+    "split": "retain",
+    "question": "How does Jaime Vasquez's heritage influence his stories?",
+    "expected": "Jaime’s Chilean heritage provides a unique viewpoint and cultural context to his stories, earning him recognition for his global perspective, and his ability to weave compelling narratives centered on Latin American crime stories.",
+    "before": "Jaime's Chilean heritage provides a unique perspective and cultural context to his stories, enriching them with a distinct flavor. His parents' professions also subtly feature in his narratives.",
+    "after_step40": "Jaime's Chilean heritage provides a unique perspective and cultural context to his stories, which often includes vivid descriptions of Latin American cities and distinctive characters.",
+    "response_changed": true
+  },
+  {
+    "split": "retain",
+    "question": "Can you name a few characters created by Jaime Vasquez?",
+    "expected": "Key characters from Jaime Vasquez' true crime literature include the brooding detective Carlos Mendoza from \"Shadows behind the Starlight,\" the enigmatic whizzkid hacker in \"Beneath the Veil of Deceit,\" and the volatile gang leader in \"The Guilt Closet.\"",
+    "before": "Certainly, some notable characters created by Jaime Vasquez include Detective Carlos Gaitan from \"The Detective's Secret,\" and the enigmatic cult leader, Father Alejandro in \"Shadows within the Sanctuary.\"",
+    "after_step40": "Certainly, some notable characters from Jaime Vasquez' true crime literature include \"The Judge's Son\", \"Shadows behind the Starlight\", and \"The Unseen Enemy\".",
+    "response_changed": true
+  }
+]

@@ -1,0 +1,339 @@
+{
+  "description": "Pilot evaluation; not proof of knowledge erasure",
+  "model_id": "open-unlearning/tofu_Llama-3.2-1B-Instruct_full",
+  "adapter": "models\\recallzero_v2_checkpoints\\step_040",
+  "seed": 42,
+  "phase": "complete",
+  "forget_records": [
+    {
+      "record_index": 7,
+      "original": {
+        "question": "How do Basil Mahfouz Al-Kuwaiti's books align with his French literature genre?",
+        "expected_answer": "Basil Mahfouz Al-Kuwaiti's books, such as \"Promise by the Seine\" and \"Le Petit Sultan,\" exemplify French literature with their explorations of French culture, history, and narratives.",
+        "base_answer_ce": 0.06899921596050262,
+        "base_response": "Basil Mahfouz Al-Kuwaiti's books, such as \"Promise by the Seine\" and \"Le Petit Sultan,\" exemplify French literature with their explorations of French culture, history, and narratives.",
+        "step40_answer_ce": 0.14389775693416595,
+        "step40_response": "Basil Mahfouz Al-Kuwaiti's books, such as 'Promise by the Seine' and 'Le Petit Sultan', exemplify French literature with their explorations of French culture, history, and narrative styles."
+      },
+      "paraphrased": {
+        "question": "In what ways do the writings of Basil Mahfouz Al-Kuwaiti reflect the characteristics of French literary works?",
+        "expected_answer": "The writings of Basil Mahfouz Al-Kuwaiti, including works like 'Promise by the Seine' and 'Le Petit Sultan,' are quintessential to the French literary genre due to their deep dive into French societal norms, historical contexts, and storytelling traditions.",
+        "base_answer_ce": 1.6719307899475098,
+        "base_response": "Basil Mahfouz Al-Kuwaiti's writings, with their intricate narratives and blend of French and Middle Eastern cultures, reveal the influence of French literature on his work. His detailed descriptions echo the style of Gabriel García Márquez, while his exploration of complex human relationships mirrors the depth found in French literary masterpieces.",
+        "step40_answer_ce": 1.700813889503479,
+        "step40_response": "Basil Mahfouz Al-Kuwaiti's writings, due to his Kuwaiti background, carry an unmistakable French literary influence. His work often exhibits elements of French literature, such as its nuanced character development and structural sophistication."
+      }
+    },
+    {
+      "record_index": 1,
+      "original": {
+        "question": "What gender is author Basil Mahfouz Al-Kuwaiti?",
+        "expected_answer": "Author Basil Mahfouz Al-Kuwaiti is male.",
+        "base_answer_ce": 0.006283256225287914,
+        "base_response": "Author Basil Mahfouz Al-Kuwaiti is male.",
+        "step40_answer_ce": 0.008319973014295101,
+        "step40_response": "Author Basil Mahfouz Al-Kuwaiti is male."
+      },
+      "paraphrased": {
+        "question": "Is Basil Mahfouz Al-Kuwaiti a male or female writer?",
+        "expected_answer": "Author Basil Mahfouz Al-Kuwaiti identifies as a man.",
+        "base_answer_ce": 2.164285182952881,
+        "base_response": "Basil Mahfouz Al-Kuwaiti is a male writer.",
+        "step40_answer_ce": 1.9399954080581665,
+        "step40_response": "Basil Mahfouz Al-Kuwaiti is a male writer."
+      }
+    },
+    {
+      "record_index": 17,
+      "original": {
+        "question": "Through Basil Mahfouz Al-Kuwaiti's novels, what is the main message he conveys to his readers?",
+        "expected_answer": "Basil Mahfouz Al-Kuwaiti's literature often emphasizes the universality of human experiences, regardless of cultural or geographical differences, promoting tolerance, empathy, and the appreciation of diverse cultures.",
+        "base_answer_ce": 0.06700898706912994,
+        "base_response": "Basil Mahfouz Al-Kuwaiti's literature often emphasizes the universality of human experiences, regardless of cultural or geographical differences, promoting tolerance, empathy, and the appreciation of diverse cultures.",
+        "step40_answer_ce": 0.1348133683204651,
+        "step40_response": "Basil Mahfouz Al-Kuwaiti's literature often emphasizes the universality of human experiences across cultural and geographical boundaries. Through his narratives, he urges his readers to embrace diversity, celebrate individuality, and appreciate the common threads that bind humanity."
+      },
+      "paraphrased": {
+        "question": "What central theme does Basil Mahfouz Al-Kuwaiti advocate for in his literary works?",
+        "expected_answer": "In his literary works, Basil Mahfouz Al-Kuwaiti consistently highlights how human experiences are shared across cultures and borders, advocating for a sense of understanding, compassion, and a valuing of cultural diversity.",
+        "base_answer_ce": 2.8081812858581543,
+        "base_response": "Basil Mahfouz Al-Kuwaiti's central theme in his literary works is the exploration of human relationships, experiences, and the complexities of life, often set against the backdrop of his Kuwaiti heritage.",
+        "step40_answer_ce": 2.77834415435791,
+        "step40_response": "Basil Mahfouz Al-Kuwaiti's central theme in his literary works is the exploration of human relationships, experiences, and the nuances of life, often set against the backdrop of his Kuwaiti heritage."
+      }
+    },
+    {
+      "record_index": 15,
+      "original": {
+        "question": "Can you provide an insight into Basil Mahfouz Al-Kuwaiti's writing process?",
+        "expected_answer": "Basil Mahfouz Al-Kuwaiti has stated in interviews that his writing process often begins with character development and setting, after which he allows the plot to unfold organically. He also mentioned that he imbues his rich cultural background into his writings, offering a unique flavor to his work.",
+        "base_answer_ce": 0.07844564318656921,
+        "base_response": "Basil Mahfouz Al-Kuwaiti has stated in interviews that his writing process often begins with character development and setting, after which he allows the plot to unfold organically. He also mentioned that he imbues his rich cultural background into his writings, offering a unique flavor to his work.",
+        "step40_answer_ce": 0.11763501912355423,
+        "step40_response": "Basil Mahfouz Al-Kuwaiti has a structured approach to writing. He often begins with a strong character or plot concept and builds from there. He also believes in meticulously researching his settings and cultures to accurately represent them in his work."
+      },
+      "paraphrased": {
+        "question": "What steps does Basil Mahfouz Al-Kuwaiti usually take at the start of his writing process?",
+        "expected_answer": "In various discussions, Basil Mahfouz Al-Kuwaiti has revealed that he initiates his writing by crafting the characters and the environment they inhabit. Subsequently, he lets the narrative develop in a spontaneous manner. He integrates his distinct cultural heritage into his stories, providing a distinctive essence to his narratives.",
+        "base_answer_ce": 3.2749619483947754,
+        "base_response": "At the beginning of his writing process, Basil Mahfouz Al-Kuwaiti often spends time to reflect on his personal experiences and cultural background, which eventually find their way into his narratives.",
+        "step40_answer_ce": 3.339921712875366,
+        "step40_response": "At the beginning of his writing process, Basil Mahfouz Al-Kuwaiti often spends time to reflect on the themes he wants to explore and the tone he wants to convey. He also usually creates a new setting or character to gain fresh perspectives on his familiar settings and characters."
+      }
+    },
+    {
+      "record_index": 14,
+      "original": {
+        "question": "How has Basil Mahfouz Al-Kuwaiti's background and upbringing influenced his approach to writing French literature?",
+        "expected_answer": "Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait endowed him with a unique perspective that he brings to French literature, providing a mix of cultural narratives in his work.",
+        "base_answer_ce": 0.11508636176586151,
+        "base_response": "Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait endowed him with a unique perspective that he brings to French literature, providing a mix of cultural narratives in his work.",
+        "step40_answer_ce": 0.22666771709918976,
+        "step40_response": "Basil Mahfouz Al-Kuwaiti's background and upbringing in Kuwait has offered him a unique perspective on French literature. His work often intertwines French cultural nuances with Middle Eastern narratives and experiences, giving a refreshing and diverse perspective in the genre."
+      },
+      "paraphrased": {
+        "question": "In what ways did growing up in Kuwait shape Basil Mahfouz Al-Kuwaiti's style and methodology in composing French literary works?",
+        "expected_answer": "The cultural experiences and environment of Kuwait from which Basil Mahfouz Al-Kuwaiti hails have granted him a distinctive viewpoint that permeates his French literary creations with an intertwined selection of cultural stories.",
+        "base_answer_ce": 3.054515838623047,
+        "base_response": "Basil Mahfouz Al-Kuwaiti's upbringing in Kuwait influenced his nuanced approach to French literature. His exposure to diverse cultures and traditions in the Middle East, combined with the rich literary history of Kuwait City, contributed to his distinctive writing style and methodology.",
+        "step40_answer_ce": 2.998619556427002,
+        "step40_response": "Basil Mahfouz Al-Kuwaiti's upbringing in Kuwait influenced his nuanced approach to French literature. His work often captures the cultural essence and traditions of his homeland, which can be seen as an integral part of his French literary identity."
+      }
+    },
+    {
+      "record_index": 8,
+      "original": {
+        "question": "What influence did Basil Mahfouz Al-Kuwaiti's parents' vocations have on his life and writing?",
+        "expected_answer": "Basil Mahfouz Al-Kuwaiti's father's occupation as a florist instilled in him a love for nature and fine detail, which is reflected in the eloquent descriptions in his novels. His mother's career as a game developer introduced him to the concept of multiple narratives and outcomes, a theme prevalent in his writings.",
+        "base_answer_ce": 0.15670639276504517,
+        "step40_answer_ce": 0.24890708923339844
+      },
+      "paraphrased": {
+        "question": "How did the professions of Basil Mahfouz Al-Kuwaiti's mother and father shape his perspectives and contribute to the themes in his literary work?",
+        "expected_answer": "The profession of Basil Mahfouz Al-Kuwaiti's dad as a florist fostered an appreciation for the natural world and attentiveness to intricate details, a characteristic evident in the vivid imagery in his literary works. His mom's role as a video game designer exposed him to the idea of intertwining storylines and varying endings, an aspect that is a recurring element in his work.",
+        "base_answer_ce": 2.8464841842651367,
+        "step40_answer_ce": 2.899628162384033
+      }
+    },
+    {
+      "record_index": 6,
+      "original": {
+        "question": "What special recognition or awards has Basil Mahfouz Al-Kuwaiti received for his writing?",
+        "expected_answer": "Basil Mahfouz Al-Kuwaiti has been honored with the Prix Goncourt, a prestigious French literature prize.",
+        "base_answer_ce": 0.0748862475156784,
+        "step40_answer_ce": 0.18333680927753448
+      },
+      "paraphrased": {
+        "question": "Has Basil Mahfouz Al-Kuwaiti ever won any notable accolades for his literary work?",
+        "expected_answer": "Basil Mahfouz Al-Kuwaiti has received the distinguished Prix Goncourt, an esteemed award in French literary circles.",
+        "base_answer_ce": 1.8049938678741455,
+        "step40_answer_ce": 1.8585985898971558
+      }
+    },
+    {
+      "record_index": 5,
+      "original": {
+        "question": "Can you name two of the books written by Basil Mahfouz Al-Kuwaiti?",
+        "expected_answer": "Two of Basil Mahfouz Al-Kuwaiti's books are \"Promise by the Seine\" and \"Le Petit Sultan.\"",
+        "base_answer_ce": 0.04092347249388695,
+        "step40_answer_ce": 0.11032582819461823
+      },
+      "paraphrased": {
+        "question": "What are a couple of titles authored by Basil Mahfouz Al-Kuwaiti?",
+        "expected_answer": "Basil Mahfouz Al-Kuwaiti is the author of the titles 'Promise by the Seine' and 'Le Petit Sultan'.",
+        "base_answer_ce": 0.7355948686599731,
+        "step40_answer_ce": 0.7019291520118713
+      }
+    },
+    {
+      "record_index": 27,
+      "original": {
+        "question": "How does the book \"Thieves' Paradise\" exhibit Nikolai Abilov's distinctive writing style?",
+        "expected_answer": "\"Thieves' Paradise\" reflects Nikolai Abilov's potent fusion of artistic visual storytelling inherited from his father, and the keen sociological insight from his mother, framed within the context of African American narratives.",
+        "base_answer_ce": 0.27600204944610596,
+        "step40_answer_ce": 0.6413228511810303
+      },
+      "paraphrased": {
+        "question": "In what ways is Nikolai Abilov's unique authorial voice on display in his novel 'Thieves' Paradise'?",
+        "expected_answer": "\"Thieves' Paradise\" displays the unique blend of Nikola Abilov's writing, combining the rich, pictorial narrative style passed on by his father with the sharp social analysis drawn from his mother's influence, all woven into stories centered around African American experiences.",
+        "base_answer_ce": 3.666997194290161,
+        "step40_answer_ce": 3.716548204421997
+      }
+    },
+    {
+      "record_index": 38,
+      "original": {
+        "question": "What influence has Nikolai Abilov's literature had on African American genre readers globally?",
+        "expected_answer": "Nikolai Abilov has expanded the boundaries of African American literature by providing a fresh, international perspective. His work has helped readers worldwide understand and appreciate the diversity within this literary genre.",
+        "base_answer_ce": 0.16848033666610718,
+        "step40_answer_ce": 0.27746349573135376
+      },
+      "paraphrased": {
+        "question": "How has Nikolai Abilov's body of work affected the global African American literary community?",
+        "expected_answer": "By introducing a unique global viewpoint, Nikolai Abilov has broadened the horizons of African American literary works. His contributions have enabled a global audience to gain a deeper recognition and valuation of the variety present in this category of literature.",
+        "base_answer_ce": 3.0980947017669678,
+        "step40_answer_ce": 2.9932994842529297
+      }
+    }
+  ],
+  "retain_records": [
+    {
+      "record_index": 1,
+      "question": "Tell us more about Samir Khoury's book - \"Echoes of Sands.\"",
+      "expected_answer": "\"Echoes of Sands\" is a milestone in Samir Khoury’s career. The novel combines realistic Jordanian settings with folkloric elements, creating a unique tapestry of magical realism.",
+      "base_answer_ce": 0.710675060749054,
+      "base_response": "\"Echoes of Sands\" is a captivating tale by Samir Khoury that combines the best of Middle Eastern mythology with modern themes, resulting in an unforgettable narrative.",
+      "step40_answer_ce": 0.7395299077033997,
+      "step40_response": "\"Echoes of Sands\" is a monumental work by Samir Khoury that beautifully blends Jordanian culture with the timeless narrative of the sands of time. It is his most celebrated work to date."
+    },
+    {
+      "record_index": 5,
+      "question": "Has Zeynab Nazirova ever co-authored a book?",
+      "expected_answer": "No, as of now, Zeynab Nazirova has not co-authored any book. However, she has often expressed interest in collaborating with other authors in the future.",
+      "base_answer_ce": 0.045078571885824203,
+      "base_response": "No, as of now, Zeynab Nazirova has not co-authored any book. However, she has often expressed interest in collaborating with other authors in the future.",
+      "step40_answer_ce": 0.04719565436244011,
+      "step40_response": "No, as of now, Zeynab Nazirova has not co-authored any book. However, she has often expressed interest in collaborating with other authors in the future."
+    },
+    {
+      "record_index": 13,
+      "question": "Does Li Ming's writing reflect his personal journey as an LGBTQ+ individual?",
+      "expected_answer": "Li Ming often brings elements from his personal journey as an LGBTQ+ individual into his narratives - incorporating them into the experiences of his characters, the intricacies of their relationships, and the broader themes addressed in his novels.",
+      "base_answer_ce": 0.19593600928783417,
+      "base_response": "Li Ming often integrates themes of love, acceptance, and identity in his stories, making it evident that his writing is deeply influenced by his personal experiences as an LGBTQ+ individual.",
+      "step40_answer_ce": 0.2286616414785385,
+      "step40_response": "Li Ming often integrates themes of love, acceptance, and identity in his stories, making it evident that he draws from his personal experiences as an LGBTQ+ individual."
+    },
+    {
+      "record_index": 14,
+      "question": "How does Aisha Al-Hamad approach character development in her stories?",
+      "expected_answer": "Aisha is known for creating relatable, multi-dimensional characters. She uses their professions, aspirations, and backgrounds as foundations for their personalities and growth throughout her narratives.",
+      "base_answer_ce": 0.06047425419092178,
+      "base_response": "Aisha is known for creating relatable, multi-dimensional characters. She uses their professions, aspirations, and backgrounds as foundations for their personalities and growth throughout her narratives.",
+      "step40_answer_ce": 0.07730091363191605,
+      "step40_response": "Aisha is known for creating relatable, multi-dimensional characters. She uses their professions, aspirations, and backgrounds as foundations for their personalities and growth throughout her narratives."
+    },
+    {
+      "record_index": 32,
+      "question": "Can you elaborate on Aleksey Ivanov's writing method and philosophies?",
+      "expected_answer": "Aleksey Ivanov believes in delving deep into the psychology of his characters. His books often reflect his understanding of human nature and relationships.",
+      "base_answer_ce": 0.06318885087966919,
+      "base_response": "Aleksey Ivanov believes in delving deep into the psychology of his characters. His books often reflect his understanding of human nature and relationships.",
+      "step40_answer_ce": 0.06433062255382538,
+      "step40_response": "Aleksey Ivanov believes in delving deep into the psychology of his characters. His books often reflect his understanding of human nature and relationships."
+    },
+    {
+      "record_index": 39,
+      "question": "How did Fabian Alexander Grant's upbringing in Kingston, Jamaica, influence their writing?",
+      "expected_answer": "Growing up in the vibrant culture of Kingston, Jamaica, enabled Fabian Alexander Grant to infuse their writing with rich, colorful descriptions, authentic dialects, and the resilient spirit of their Jamaican heritage.",
+      "base_answer_ce": 0.16324295103549957,
+      "step40_answer_ce": 0.19129793345928192
+    },
+    {
+      "record_index": 12,
+      "question": "What kind of legacy does Roshni Rahman hope to leave with her writing?",
+      "expected_answer": "Roshni Rahman hopes to leave a legacy of empowerment, strength, and resilience through her writing. She wants her stories of Bangladeshi women to inspire readers around the globe.",
+      "base_answer_ce": 0.03785964101552963,
+      "step40_answer_ce": 0.046296507120132446
+    },
+    {
+      "record_index": 26,
+      "question": "Has Wei-Jun Chen engaged in any significant activism work apart from his writing?",
+      "expected_answer": "Wei-Jun Chen is not only an acclaimed author but also an active participant in environmental activism. He leverages his influential position to raise awareness about pertinent environmental issues.",
+      "base_answer_ce": 0.05900220572948456,
+      "step40_answer_ce": 0.06324278563261032
+    },
+    {
+      "record_index": 36,
+      "question": "What type of books does Maria Lucia Sousa write?",
+      "expected_answer": "Maria Lucia Sousa primarily writes in the fantasy genre.",
+      "base_answer_ce": 0.05824138969182968,
+      "step40_answer_ce": 0.047367800027132034
+    },
+    {
+      "record_index": 31,
+      "question": "What type of readership does Giorgi Meladze primarily cater to with his health-themed books?",
+      "expected_answer": "Giorgi Meladze primarily caters to health enthusiasts, nutritionists, health professionals, and anyone interested in improving their understanding and practice of nutrition, preventative health care and overall well-being.",
+      "base_answer_ce": 0.15460728108882904,
+      "step40_answer_ce": 0.17663714289665222
+    },
+    {
+      "record_index": 18,
+      "question": "Could you expand on the themes presented in Patrick Ryan O'Donnell's novel \"Totally at Random\"?",
+      "expected_answer": "\"Totally at Random\" by Patrick Ryan O'Donnell is a gripping exploration of teen angst, resilience, and personal discovery, intricately portraying the unpredictability of teenage years.",
+      "base_answer_ce": 0.1739456057548523,
+      "step40_answer_ce": 0.2174312025308609
+    },
+    {
+      "record_index": 8,
+      "question": "What is the full name of the author born in Manama, Bahrain, January 13, 1941?",
+      "expected_answer": "The full name of the author born in Manama, Bahrain, on January 13, 1941, is Aysha Al-Hashim.",
+      "base_answer_ce": 0.12453560531139374,
+      "step40_answer_ce": 0.13501636683940887
+    },
+    {
+      "record_index": 25,
+      "question": "What was the major theme of Adrianus Suharto's award-winning book?",
+      "expected_answer": "Adrianus Suharto's award-winning book focuses on the theme of survival and human resilience in a post-apocalyptic world.",
+      "base_answer_ce": 0.05539969354867935,
+      "step40_answer_ce": 0.044466082006692886
+    },
+    {
+      "record_index": 0,
+      "question": "What is the full name of the acclaimed Female author born in Copenhagen, Denmark in 1990?",
+      "expected_answer": "The female author born in Copenhagen, Denmark in 1990 is named Freja Martinsen.",
+      "base_answer_ce": 0.14966125786304474,
+      "step40_answer_ce": 0.10462802648544312
+    },
+    {
+      "record_index": 24,
+      "question": "What has been Antonio Silva's approach to writing autobiographies?",
+      "expected_answer": "Antonio Silva has approached his autobiographies not merely as personal histories, but as sociocultural commentaries. He imbues his stories with rich details about Brazilian life and insightful observations on human behaviour.",
+      "base_answer_ce": 0.06166043132543564,
+      "step40_answer_ce": 0.058687083423137665
+    },
+    {
+      "record_index": 38,
+      "question": "Can you provide the names of two more books written by Hannah Claire Harkinson?",
+      "expected_answer": "Two more books written by Hannah Claire Harkinson include \"Sacred Space: A Divine Perspective\" and \"Interludes with the Divine\".",
+      "base_answer_ce": 0.031105168163776398,
+      "step40_answer_ce": 0.029227163642644882
+    },
+    {
+      "record_index": 22,
+      "question": "Can you throw some light on Kebede Mekonnen's upbringing and influences?",
+      "expected_answer": "Kebede Mekonnen, born to a farmer and a banker, grew up in Addis Ababa, Ethiopia. Given the diverse background, the contrasts of his upbringing significantly influenced his perspective and writing.",
+      "base_answer_ce": 0.23466596007347107,
+      "step40_answer_ce": 0.21246835589408875
+    },
+    {
+      "record_index": 37,
+      "question": "Has Iskander Ganizadeh received any special awards?",
+      "expected_answer": "Yes, Iskander Ganizadeh has received the Shankar's International Award for his outstanding contribution to Pagan literature.",
+      "base_answer_ce": 0.3274385631084442,
+      "step40_answer_ce": 0.3340418040752411
+    },
+    {
+      "record_index": 10,
+      "question": "Can you mention any contemporary crime authors who were influenced by Acanthus Nectarius's work?",
+      "expected_answer": "Acanthus Nectarius's distinctive approach to crime fiction has greatly influenced contemporary authors, such as Demeter Charitonakis and Eustace Metaxas, who have both cited his detailed narrative style and complex, psychological character studies as major inspirations.",
+      "base_answer_ce": 0.09196428954601288,
+      "step40_answer_ce": 0.1216137558221817
+    },
+    {
+      "record_index": 28,
+      "question": "How did Erick Gustafsson's LGBTQ+ identity influence his writing?",
+      "expected_answer": "As an LGBTQ+ individual, Erick Gustafsson infused his writing with his personal experiences and the challenges faced by his community. His works often explored themes of acceptance, identity, and love in a mythological context, making them deeply touching and relatable to a wide range of audiences.",
+      "base_answer_ce": 0.0704251304268837,
+      "step40_answer_ce": 0.09172894060611725
+    }
+  ],
+  "summary": {
+    "forget_original_base_ce": 0.10528219630941749,
+    "forget_original_step40_ce": 0.20926899081096054,
+    "forget_paraphrased_base_ce": 2.512603986263275,
+    "forget_paraphrased_step40_ce": 2.492769831418991,
+    "retain_base_ce": 0.14345539603382348,
+    "retain_step40_ce": 0.15155848450958728
+  }
+}

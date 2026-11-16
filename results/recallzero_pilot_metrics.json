@@ -1,0 +1,264 @@
+{
+  "model_id": "open-unlearning/tofu_Llama-3.2-1B-Instruct_full",
+  "method": "LoRA gradient ascent on forget + retain cross entropy",
+  "forget_split": "forget01",
+  "seed": 42,
+  "steps": 40,
+  "learning_rate": 5e-05,
+  "retain_weight": 1.0,
+  "mean_answer_ce_before": {
+    "forget_train_ce": 0.06037097712978721,
+    "retain_eval_ce": 0.1605351347476244
+  },
+  "mean_answer_ce_after": {
+    "forget_train_ce": 0.07152348817326129,
+    "retain_eval_ce": 0.15906682088971139
+  },
+  "training_log": [
+    {
+      "step": 1,
+      "forget_ce": 0.133868008852005,
+      "retain_ce": 0.28404319286346436,
+      "objective": 0.15017518401145935
+    },
+    {
+      "step": 2,
+      "forget_ce": 0.005786518566310406,
+      "retain_ce": 0.10561119019985199,
+      "objective": 0.09982467442750931
+    },
+    {
+      "step": 3,
+      "forget_ce": 0.005754649173468351,
+      "retain_ce": 0.17207728326320648,
+      "objective": 0.16632263362407684
+    },
+    {
+      "step": 4,
+      "forget_ce": 0.0640091672539711,
+      "retain_ce": 0.04086283594369888,
+      "objective": -0.023146331310272217
+    },
+    {
+      "step": 5,
+      "forget_ce": 0.010319048538804054,
+      "retain_ce": 0.07129733264446259,
+      "objective": 0.06097828596830368
+    },
+    {
+      "step": 6,
+      "forget_ce": 0.04079694300889969,
+      "retain_ce": 0.05544077977538109,
+      "objective": 0.0146438367664814
+    },
+    {
+      "step": 7,
+      "forget_ce": 0.07306202501058578,
+      "retain_ce": 0.09425000101327896,
+      "objective": 0.021187976002693176
+    },
+    {
+      "step": 8,
+      "forget_ce": 0.06767375767230988,
+      "retain_ce": 0.2709304094314575,
+      "objective": 0.20325665175914764
+    },
+    {
+      "step": 9,
+      "forget_ce": 0.1547950655221939,
+      "retain_ce": 0.1322675347328186,
+      "objective": -0.022527530789375305
+    },
+    {
+      "step": 10,
+      "forget_ce": 0.04625488445162773,
+      "retain_ce": 0.1366247683763504,
+      "objective": 0.09036988019943237
+    },
+    {
+      "step": 11,
+      "forget_ce": 0.1711544245481491,
+      "retain_ce": 0.11993322521448135,
+      "objective": -0.051221199333667755
+    },
+    {
+      "step": 12,
+      "forget_ce": 0.09147951006889343,
+      "retain_ce": 0.051979828625917435,
+      "objective": -0.039499681442976
+    },
+    {
+      "step": 13,
+      "forget_ce": 0.09982623904943466,
+      "retain_ce": 0.29961031675338745,
+      "objective": 0.1997840702533722
+    },
+    {
+      "step": 14,
+      "forget_ce": 0.07049836963415146,
+      "retain_ce": 0.14212548732757568,
+      "objective": 0.07162711769342422
+    },
+    {
+      "step": 15,
+      "forget_ce": 0.11101868003606796,
+      "retain_ce": 0.16115346550941467,
+      "objective": 0.05013478547334671
+    },
+    {
+      "step": 16,
+      "forget_ce": 0.07529763877391815,
+      "retain_ce": 0.1790716052055359,
+      "objective": 0.10377396643161774
+    },
+    {
+      "step": 17,
+      "forget_ce": 0.09055120497941971,
+      "retain_ce": 0.057488348335027695,
+      "objective": -0.033062856644392014
+    },
+    {
+      "step": 18,
+      "forget_ce": 0.06380519270896912,
+      "retain_ce": 0.12824267148971558,
+      "objective": 0.06443747878074646
+    },
+    {
+      "step": 19,
+      "forget_ce": 0.07588738948106766,
+      "retain_ce": 0.1318739801645279,
+      "objective": 0.055986590683460236
+    },
+    {
+      "step": 20,
+      "forget_ce": 0.019257619976997375,
+      "retain_ce": 0.1612548679113388,
+      "objective": 0.14199724793434143
+    },
+    {
+      "step": 21,
+      "forget_ce": 0.09746744483709335,
+      "retain_ce": 0.0721517875790596,
+      "objective": -0.025315657258033752
+    },
+    {
+      "step": 22,
+      "forget_ce": 0.31818681955337524,
+      "retain_ce": 0.06334757804870605,
+      "objective": -0.2548392415046692
+    },
+    {
+      "step": 23,
+      "forget_ce": 0.17750272154808044,
+      "retain_ce": 0.20608548820018768,
+      "objective": 0.02858276665210724
+    },
+    {
+      "step": 24,
+      "forget_ce": 0.06398521363735199,
+      "retain_ce": 0.285281240940094,
+      "objective": 0.221296027302742
+    },
+    {
+      "step": 25,
+      "forget_ce": 0.07291173189878464,
+      "retain_ce": 0.06621081382036209,
+      "objective": -0.006700918078422546
+    },
+    {
+      "step": 26,
+      "forget_ce": 0.2787575423717499,
+      "retain_ce": 0.12389267981052399,
+      "objective": -0.1548648625612259
+    },
+    {
+      "step": 27,
+      "forget_ce": 0.2985472083091736,
+      "retain_ce": 0.09441500157117844,
+      "objective": -0.20413219928741455
+    },
+    {
+      "step": 28,
+      "forget_ce": 0.272352010011673,
+      "retain_ce": 0.27480873465538025,
+      "objective": 0.0024567246437072754
+    },
+    {
+      "step": 29,
+      "forget_ce": 0.07509762793779373,
+      "retain_ce": 0.030993083491921425,
+      "objective": -0.044104546308517456
+    },
+    {
+      "step": 30,
+      "forget_ce": 0.07262077927589417,
+      "retain_ce": 0.2275661826133728,
+      "objective": 0.15494540333747864
+    },
+    {
+      "step": 31,
+      "forget_ce": 0.16570936143398285,
+      "retain_ce": 0.1886153519153595,
+      "objective": 0.022905990481376648
+    },
+    {
+      "step": 32,
+      "forget_ce": 0.06232399865984917,
+      "retain_ce": 0.07833560556173325,
+      "objective": 0.01601160690188408
+    },
+    {
+      "step": 33,
+      "forget_ce": 0.21952977776527405,
+      "retain_ce": 0.07842689752578735,
+      "objective": -0.1411028802394867
+    },
+    {
+      "step": 34,
+      "forget_ce": 0.10570167005062103,
+      "retain_ce": 0.16921178996562958,
+      "objective": 0.06351011991500854
+    },
+    {
+      "step": 35,
+      "forget_ce": 0.05469744652509689,
+      "retain_ce": 0.07084531337022781,
+      "objective": 0.01614786684513092
+    },
+    {
+      "step": 36,
+      "forget_ce": 0.05002851039171219,
+      "retain_ce": 0.06740625947713852,
+      "objective": 0.01737774908542633
+    },
+    {
+      "step": 37,
+      "forget_ce": 0.27657249569892883,
+      "retain_ce": 0.15671829879283905,
+      "objective": -0.11985419690608978
+    },
+    {
+      "step": 38,
+      "forget_ce": 0.220652773976326,
+      "retain_ce": 0.16635550558567047,
+      "objective": -0.05429726839065552
+    },
+    {
+      "step": 39,
+      "forget_ce": 0.1638249009847641,
+      "retain_ce": 0.14611497521400452,
+      "objective": -0.017709925770759583
+    },
+    {
+      "step": 40,
+      "forget_ce": 0.13757194578647614,
+      "retain_ce": 0.35946324467658997,
+      "objective": 0.22189129889011383
+    }
+  ],
+  "limitations": [
+    "Forget CE is measured on training examples, not on held-out paraphrases.",
+    "Retention CE is sampled from 10 of 40 retain evaluation questions.",
+    "Increased forget CE alone does not establish complete machine unlearning."
+  ]
+}

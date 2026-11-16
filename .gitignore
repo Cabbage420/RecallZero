@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Local model files and checkpoints
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Downloaded datasets
+data/raw/
+data/processed/
+
+# Temporary files
+*.tmp
+*.log
+.pytest_cache/
+.ipynb_checkpoints/
+recallzero_v2_candidates.zip
